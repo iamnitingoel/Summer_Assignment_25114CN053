@@ -1,3 +1,5 @@
+// Perfect Number: Adding all factors except the number itself gives the same number 
+// (e.g: 6=1+2+3)
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -15,4 +17,5 @@ int main(){
     else{
         cout<<n<<" is NOT a Perfect Number.";
     }
+    return 0;
 }
